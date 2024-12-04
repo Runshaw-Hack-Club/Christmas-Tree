@@ -26,5 +26,5 @@ def scanner(tree, speed=1.0, color=(255, 0, 0)):
 
 
 if __name__ == "__main__":
-    tree = controller.Tree(debug=False, num_leds=200, brightness=30)
+    tree = controller.Tree(debug=False, brightness=30)
     scanner(tree)
