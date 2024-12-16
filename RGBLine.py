@@ -34,7 +34,7 @@ class ColorUtils:
         return int(r * 255), int(g * 255), int(b * 255)
     
     
-tree = controller.Tree(debug=True)
+tree = controller.Tree(debug=False)
 num_leds = 200
 t = 0
 
